@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: felx;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  text-decoration: none;
+}
+
+.nav :global(.active) {
+  background-color: black;
+}
+
+.nav img {
+  width: 200px;
+}

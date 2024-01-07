@@ -1,0 +1,113 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Manrope:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+/* font-family: 'Balsamiq Sans', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: rgb(10, 209, 10);
+}
+
+.group .active {
+  background-color: #111111;
+  color: white;
+  /* padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 6px;
+  padding-bottom: 6px; */
+
+  /* border-radius: 6px; */
+
+  transition: all 0.9s;
+}
+
+.group .active #home-page {
+  background-image: url("../public/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  background-position: center;
+  opacity: 1;
+  /* background-color: rgba(248, 247, 216, 0.7); */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #414141;
+  color: white;
+  border-left: 5px solid rgb(7, 190, 7);
+  border-radius: 3px;
+}
+
+.leaflet-popup-tip {
+  background-color: #414141;
+  color: #333;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-popup-content{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.leaflet-popup-tip-container{
+  position: absolute;
+  bottom: -20px;
+}
+
+/* 
+:root {
+  --color-brand-1: #ffb545;
+  --color-brand-2: #00c46a;
+
+  --color-dark-0: #242a2e;
+  --color-dark-1: #2d3439;
+  --color-dark-0: #42484d;
+
+  --color-light-0: #aaa;
+  --color-light-1: #ececec;
+  --color-light-2: #d6dee0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-light-2);
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: var(--color-dark-1);
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: none;
+  background-color: #fff;
+} */

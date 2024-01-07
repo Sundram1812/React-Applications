@@ -1,0 +1,29 @@
+body {
+  background-color: #111111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #766df4 94%, #0000) top/8px 8px
+      no-repeat,
+    conic-gradient(#0000 30%, #766df4);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+  animation: s3 1s infinite linear;
+  display: flex;
+  justify-content: center;
+  padding-top:40px;
+}
+
+@keyframes s3 {
+  100% {
+    transform: rotate(1turn);
+  }
+}

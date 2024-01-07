@@ -1,0 +1,112 @@
+{
+  "cities": [
+    {
+      "cityName": "Kulittalai",
+      "country": "India",
+      "emoji": "IN",
+      "date": "2024-01-04T11:47:23.959Z",
+      "notes": "bvjhhjvgh",
+      "position": {
+        "lat": "10.794963294966495",
+        "lng": "78.37163353677185"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Auterive",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2024-01-06T12:48:21.952Z",
+      "notes": "test",
+      "position": {
+        "lat": "43.56518483337894",
+        "lng": "0.6397795536943862"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "Angues",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-01-06T12:52:06.264Z",
+      "notes": "test",
+      "position": {
+        "lat": "42.083487369239755",
+        "lng": "-0.13773399478534956"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Mezalocha",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-01-06T12:55:44.094Z",
+      "notes": "",
+      "position": {
+        "lat": "41.39526958232622",
+        "lng": "-1.072044027369359"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "Cere-la-Ronde",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2024-01-06T12:56:47.239Z",
+      "notes": "",
+      "position": {
+        "lat": "47.23665342198713",
+        "lng": "1.1387998883938624"
+      },
+      "id": 8
+    },
+    {
+      "cityName": "Villalobos",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-01-06T12:58:47.603Z",
+      "notes": "",
+      "position": {
+        "lat": "41.96929675754395",
+        "lng": "-5.501895427445019"
+      },
+      "id": 9
+    },
+    {
+      "cityName": "Corbalan",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-01-06T13:02:53.751Z",
+      "notes": "",
+      "position": {
+        "lat": "40.38260590456215",
+        "lng": "-0.9287099310068061"
+      },
+      "id": 10
+    },
+    {
+      "cityName": "Gulf of Lion",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2024-01-06T16:56:21.891Z",
+      "notes": "",
+      "position": {
+        "lat": "43.27808320298247",
+        "lng": "5.051627714071399"
+      },
+      "id": 11
+    },
+    {
+      "cityName": "Tirumakudal Narsipur",
+      "country": "India",
+      "emoji": "IN",
+      "date": "2024-01-06T16:56:40.270Z",
+      "notes": "Test\n",
+      "position": {
+        "lat": "12.309485330962728",
+        "lng": "76.92270190334366"
+      },
+      "id": 12
+    }
+  ]
+}
